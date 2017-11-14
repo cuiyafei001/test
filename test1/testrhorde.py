@@ -40,7 +40,7 @@ mouse = driver.find_element_by_partial_link_text("设置")
 #鼠标右键点击设置按钮
 # ActionChains(driver).context_click(mouse).perform()
 #双击鼠标点击设置按钮
-# ActionChains(driver).double_click(mouse).perform()
+ActionChains(driver).double_click(mouse).perform()
 
 
 time.sleep(2)
