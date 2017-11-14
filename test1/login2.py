@@ -13,7 +13,7 @@ driver.find_element_by_id("login-account-name").send_keys("csliyi001")
 driver.find_element_by_id("login-account-password").send_keys("123456789")
 driver.find_element_by_css_selector(".btn.btn-large.btn-primary").click()
 time.sleep(5)
-# 1.登录完成之后，需要检查是否登录成功，这里就需要有个检查点，我这边选择的是查看登录后头像的属性
+# 1.登录完成之后，需要检查是否登录成功，这里就需要有个检查点，选择查看登录后头像的属性
 # 2.先定位到登录头像，通过get_attribute()方法获取到这个对象的title属性
 # 3.判断获取到的值，与期望结果是否一致
 # 4.符合预期结果测试通过
