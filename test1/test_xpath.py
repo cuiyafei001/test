@@ -29,4 +29,4 @@ time.sleep(3)
 #xpath模糊匹配以什么结尾
 # driver.find_element_by_xpath("//*[ends-with(@id,'kw_wrap')]").click()
 #xpath支持最强的正则表达式
-# driver.find_element_by_xpath("//*[matchs(text(),'hao13')]").click()
+driver.find_element_by_xpath("//*[matchs(text(),'hao13')]").click()
