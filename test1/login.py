@@ -1,6 +1,5 @@
 # _*_ coding: UTF-8 _*_
-# 登录函数
-# 登录的账号和密码参数化
+# 函数登录的账号和密码参数化
 from selenium import webdriver
 import time
 def login(user,password):
