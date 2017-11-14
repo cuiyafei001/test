@@ -29,10 +29,10 @@ driver.get("https://www.baidu.com")
 # driver.find_element_by_css_selector("[input.s_put]").send_keys("小白兔去哪了")
 
 #css通过标签与id属性组合定位
-# driver.find_element_by_css_selector("[input#kw]").send_keys("小白兔去哪了")
+driver.find_element_by_css_selector("[input#kw]").send_keys("小白兔去哪了")
 
 #css通过标签与其他属性组合定位
-driver.find_element_by_css_selector("[input[id='kw']").send_keys("小白兔去哪了")
+# driver.find_element_by_css_selector("[input[id='kw']").send_keys("小白兔去哪了")
 
 time.sleep(2)
 
