@@ -14,7 +14,6 @@ driver.find_element_by_id("kw").submit()
 time.sleep(2)
 s = driver.find_elements_by_css_selector("h3.t>a")
 # print s
-
 # for i in s:
 #     print i.get_attribute("href") # href(链接) 打印出获取到的URL
 
