@@ -29,5 +29,5 @@ s[t].click()
 #这种方式类似接口测试了模拟用户用click方法
 # driver.get(a)
 
-time.sleep(3)
+time.sleep(2)
 driver.quit()
