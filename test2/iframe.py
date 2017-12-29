@@ -3,22 +3,21 @@ from selenium import webdriver
 import time
 
 driver = webdriver.Firefox()
-# 打开网易163邮箱
 driver.get("http://mail.163.com/")
-time.sleep(1)
-#切换iframe
+time.sleep(2)
+# 切换iframe
+# iframe = driver.find_element_by_tag_name("iframe")
+# driver.switch_to_frame(iframe)
+
+# 切换iframe 代码划横线的原因水语法过时了，不过还可以用新的应该这么写
+# driver.switch_to.frame("x-URS-iframe")
 driver.switch_to_frame("x-URS-iframe")
-time.sleep(1)
+# time.sleep(2)
+driver.find_element_by_name("email").send_keys("csliyi001")
+driver.find_element_by_name("password").send_keys("110120119.com")
 
-# 输入账号密码
-driver.find_element_by_name("email").send_keys("cuiyafei001")
-driver.find_element_by_name("password").send_keys("110120119.com/.,")
-# 点击登录按钮
-driver.find_element_by_id("dologin").click()
+# driver.find_element_by_id("dologin").click()
+# driver.find_element_by_xpath(".//*[@id='auto-id-1510905807788']").click()
 
-
-
-
-
-
-
+# 释放iframe，重新回到主界面上
+driver.switch_to_default_content()
