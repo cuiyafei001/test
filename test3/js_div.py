@@ -4,7 +4,7 @@
 from selenium import webdriver
 import time
 driver = webdriver.Firefox()
-driver.get("file:///C:/Users/123/Desktop/js.html")
+driver.get("file:///C:/Users/Administrator/Desktop/js.html")
 
 # 纵向底部
 # js1 = 'document.getElementById("yoyoketang").scrollTop=10000'
