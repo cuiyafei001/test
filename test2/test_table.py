@@ -10,3 +10,5 @@ t = driver.find_element_by_xpath(".//*[@id='myTable']/tbody/tr[2]/td[3]")
 print t.text
 
 driver.quit()
+
+

@@ -59,7 +59,7 @@
 # for i in student:
 #     s = student[1]
 #
-    # print s
+#     print s
 """
 if True:
     print "True"
@@ -68,17 +68,15 @@ else:
     print "Answer"
 print "False
 """
-a = 1
-b = 2
-#执行输出
-print a
-print b
-
-print '-------'
-#不换行输出
-print a,
-print b,
-
-print a,b
-
-a = 2
+# a = 1
+# b = 2
+# #执行输出
+# print a
+# print b
+#
+# print '-------'
+# #不换行输出
+# print a,
+# print b,
+#
+# print a,b

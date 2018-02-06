@@ -23,6 +23,7 @@ time.sleep(1)
 
 # 获取所有窗口句柄
 all_h = driver.window_handles
+
 # 这里打印出来的所有页面句柄是一个[]list
 print all_h  # 打印所有的句柄
 
@@ -41,8 +42,8 @@ print driver.title
 
 # 切换到首页句柄
 driver.switch_to_window(h)
-time.sleep(1)
+time.sleep(2)
 
+driver.close()
 # 打印当前的title
 print driver.title
-driver.close()

@@ -9,21 +9,21 @@ driver.get("https://www.baidu.com/")
 # 设置休眠时间为3秒，也可以是小数，单位是秒
 time.sleep(3)
 # 等待三秒后刷新页面
-# driver.refresh()
+driver.refresh()
 # driver.get("http://www.ctrip.com/")
 # time.sleep(5)
 # 返回上一页
 # driver.back()
 # time.sleep(3)
-# 切换到下一
+# 切换到下一页
 # driver.forward()
-# 设置窗口大小为540*960
 # driver.set_window_size(540,960)
 # time.sleep(2)
 # 将浏览器窗口最大化
-# driver.maximize_window()
-# driver.get_screenshot_as_file("E:\\test\\b1.jpg")
-# driver.close() 关闭当前窗口
+driver.maximize_window()
+#对屏幕进行截屏
+driver.get_screenshot_as_file("E:\\test\\b1.jpg")
+driver.close() # 关闭当前窗口
 # quit用于退出浏览器进程
 # driver.quit()
 # 通过id定位百度搜索框，并输入“python”
@@ -53,5 +53,5 @@ time.sleep(3)
 # 用xpath其他属性定位
 # driver.find_element_by_xpath("//*[@autocomplete='off']").send_keys("python")
 # driver.quit()
-# 通过xpath定位它爷爷来定位input的属性
-driver.find_element_by_xpath("// from[id='form']/span/input").send_keys("python")
+# time.sleep(3)
+# driver.quit()
