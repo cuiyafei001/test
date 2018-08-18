@@ -13,7 +13,7 @@ def logout():
     driver.find_element_by_xpath(".//*[@id='current-user']/a/div/img").click()
     time.sleep(1)
     driver.find_element_by_xpath(".//*[@id='ember808']/header/div/div/div[2]/div/div/div/div/div[3]/ul/li/a").click()
-    time.time(1)
+    time.sleep(1)
     driver.quit()
 #   运行用例
 #   1.先调用登录函数

@@ -1,5 +1,5 @@
 # _*_ coding: UTF-8 _*_
-# 第一步打入webdriver模块
+# 第一步导入webdriver模块
 from selenium import webdriver
 import time
 # 第二步打开浏览器
